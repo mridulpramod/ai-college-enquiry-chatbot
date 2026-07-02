@@ -1,0 +1,403 @@
+[
+    {
+        "intent": "welcomegreeting",
+        "questions": [
+            "hi",
+            "hello",
+            "hey",
+            "hii",
+            "good morning",
+            "good evening",
+            "good afternoon",
+            "hello there",
+            "hi chatbot",
+            "hello assistant",
+            "start",
+            "help",
+            "guide me",
+            "who are you",
+            "what can you do",
+            "are you a bot",
+            "college enquiry",
+            "can you help me",
+            "hi there",
+            "hey assistant",
+            "hello bot",
+            "hi ai",
+            "good day",
+            "greetings",
+            "hey there"
+        ]
+    },
+    {
+        "intent": "about_college",
+        "questions": [
+            "about college",
+            "tell me about coet",
+            "college information",
+            "introduction of college",
+            "history of coet",
+            "when established",
+            "college overview",
+            "profile of coet",
+            "about engineering college thalassery",
+            "information about coet",
+            "college background",
+            "college history",
+            "about this institution",
+            "college details",
+            "coet overview",
+            "what is coet",
+            "tell about college",
+            "describe coet",
+            "engineering college thalassery info",
+            "details about coet"
+        ]
+    },
+    {
+        "intent": "principal",
+        "questions": [
+            "principal name",
+            "who is principal",
+            "principal details",
+            "head of college",
+            "college principal",
+            "principal information",
+            "name of principal",
+            "who leads the college",
+            "principal profile",
+            "principle name",
+            "who is principle",
+            "college principle"
+        ]
+    },
+    {
+        "intent": "student_strength",
+        "questions": [
+            "how many students",
+            "student strength",
+            "total students",
+            "college strength",
+            "number of students",
+            "student population",
+            "how many students study here",
+            "student count",
+            "total strength"
+        ]
+    },
+    {
+        "intent": "address",
+        "questions": [
+            "college address",
+            "location",
+            "where is coet",
+            "how to reach college",
+            "nearest town",
+            "college place",
+            "where is engineering college thalassery",
+            "college location",
+            "coet location",
+            "college address details"
+        ]
+    },
+    {
+        "intent": "contact",
+        "questions": [
+            "contact number",
+            "phone number",
+            "email",
+            "office contact",
+            "college phone",
+            "how to contact",
+            "college email",
+            "contact details",
+            "contact office",
+            "college phone number"
+        ]
+    },
+    {
+        "intent": "timing",
+        "questions": [
+            "college timing",
+            "working hours",
+            "office timing",
+            "class time",
+            "when college open",
+            "college working time",
+            "college schedule",
+            "what time college starts"
+        ]
+    },
+    {
+        "intent": "course",
+        "questions": [
+            "courses",
+            "branches",
+            "departments",
+            "what courses available",
+            "engineering branches",
+            "what can i study",
+            "programs offered",
+            "degrees available",
+            "btech courses",
+            "course options",
+            "engineering programs",
+            "available branches",
+            "courses offered",
+            "engineering courses in coet"
+        ]
+    },
+    {
+        "intent": "civil",
+        "questions": [
+            "civil",
+            "civil engineering",
+            "civil department",
+            "civil branch details",
+            "about civil engineering",
+            "civil course",
+            "civil engineering information"
+        ]
+    },
+    {
+        "intent": "cse",
+        "questions": [
+            "cse",
+            "computer science",
+            "cse department",
+            "computer engineering",
+            "about cse",
+            "computer science engineering",
+            "cse course",
+            "computer science branch"
+        ]
+    },
+    {
+        "intent": "ece",
+        "questions": [
+            "ece",
+            "electronics",
+            "electronics department",
+            "communication engineering",
+            "about ece",
+            "electronics engineering",
+            "ece course"
+        ]
+    },
+    {
+        "intent": "eee",
+        "questions": [
+            "eee",
+            "electrical engineering",
+            "eee department",
+            "electrical branch",
+            "about eee",
+            "electrical electronics engineering",
+            "eee course"
+        ]
+    },
+    {
+        "intent": "mech",
+        "questions": [
+            "mechanical",
+            "mech",
+            "mechanical engineering",
+            "mech department",
+            "about mechanical",
+            "mechanical branch",
+            "mechanical course"
+        ]
+    },
+    {
+        "intent": "it",
+        "questions": [
+            "it department",
+            "information technology",
+            "it engineering",
+            "about it branch",
+            "information technology course",
+            "it branch"
+        ]
+    },
+    {
+        "intent": "mba",
+        "questions": [
+            "mba",
+            "mba course",
+            "management course",
+            "business administration",
+            "mba department",
+            "mba program",
+            "mba details"
+        ]
+    },
+    {
+        "intent": "mca",
+        "questions": [
+            "mca",
+            "mca course",
+            "master of computer applications",
+            "pg computer course",
+            "mca program",
+            "mca details"
+        ]
+    },
+    {
+        "intent": "best_course",
+        "questions": [
+            "which course is best",
+            "best branch",
+            "top branch",
+            "which department good",
+            "suggest best course",
+            "best engineering branch",
+            "which branch should i choose"
+        ]
+    },
+    {
+        "intent": "admission_enquiry",
+        "questions": [
+            "admission",
+            "how to join",
+            "how to get admission",
+            "admission process",
+            "how to apply",
+            "btech admission",
+            "eligibility",
+            "admission requirements",
+            "join coet",
+            "admission details",
+            "engineering admission"
+        ]
+    },
+    {
+        "intent": "fee",
+        "questions": [
+            "fee",
+            "fee structure",
+            "course fees",
+            "btech fees",
+            "mba fees",
+            "mca fees",
+            "college fee details",
+            "tuition fees",
+            "fee amount",
+            "college fees"
+        ]
+    },
+    {
+        "intent": "hostel",
+        "questions": [
+            "hostel",
+            "hostel facility",
+            "is hostel available",
+            "boys hostel",
+            "girls hostel",
+            "stay facility",
+            "hostel rooms",
+            "hostel details",
+            "college hostel",
+            "student hostel"
+        ]
+    },
+    {
+        "intent": "bus",
+        "questions": [
+            "bus",
+            "transport",
+            "bus facility",
+            "college transport",
+            "travel facility",
+            "bus service",
+            "transport facility"
+        ]
+    },
+    {
+        "intent": "library",
+        "questions": [
+            "library",
+            "library facility",
+            "books availability",
+            "study space",
+            "reading hall",
+            "digital library",
+            "college library",
+            "library books"
+        ]
+    },
+    {
+        "intent": "canteen",
+        "questions": [
+            "canteen",
+            "food facility",
+            "mess facility",
+            "food available",
+            "snacks shop",
+            "college food",
+            "campus food"
+        ]
+    },
+    {
+        "intent": "placements",
+        "questions": [
+            "placements",
+            "placement details",
+            "placement support",
+            "job opportunities",
+            "placement cell",
+            "companies visiting",
+            "placement record",
+            "career support",
+            "highest package",
+            "average salary",
+            "campus placements",
+            "recruitment companies"
+        ]
+    },
+    {
+        "intent": "placement_training",
+        "questions": [
+            "placement training",
+            "aptitude training",
+            "interview training",
+            "job preparation",
+            "placement classes",
+            "training for placement"
+        ]
+    },
+    {
+        "intent": "career",
+        "questions": [
+            "job after engineering",
+            "career options",
+            "future after btech",
+            "job opportunities after course",
+            "career after engineering"
+        ]
+    },
+    {
+        "intent": "thanks",
+        "questions": [
+            "thank you",
+            "thanks",
+            "ok thanks",
+            "nice",
+            "great",
+            "thanks a lot",
+            "thank you very much"
+        ]
+    },
+    {
+        "intent": "endgreeting",
+        "questions": [
+            "bye",
+            "goodbye",
+            "see you",
+            "exit",
+            "quit",
+            "stop",
+            "bye bot",
+            "see you later"
+        ]
+    }
+]

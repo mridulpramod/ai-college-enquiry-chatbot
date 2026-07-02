@@ -1,0 +1,198 @@
+[
+    {
+        "intent": "welcomegreeting",
+        "related": [
+            { "text": "About College", "tag": "about_college" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Admission", "tag": "admission_enquiry" },
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Hostel", "tag": "hostel" }
+        ]
+    },
+    {
+        "intent": "about_college",
+        "related": [
+            { "text": "Principal", "tag": "principal" },
+            { "text": "Location", "tag": "address" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "course",
+        "related": [
+            { "text": "Civil Engineering", "tag": "civil" },
+            { "text": "Computer Science", "tag": "cse" },
+            { "text": "Electronics", "tag": "ece" },
+            { "text": "Electrical", "tag": "eee" },
+            { "text": "Mechanical", "tag": "mech" },
+            { "text": "Information Technology", "tag": "it" }
+        ]
+    },
+    {
+        "intent": "civil",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "cse",
+        "related": [
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "ece",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "eee",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "mech",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "it",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "mba",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Admission", "tag": "admission_enquiry" },
+            { "text": "Placements", "tag": "placements" }
+        ]
+    },
+    {
+        "intent": "mca",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Admission", "tag": "admission_enquiry" },
+            { "text": "Placements", "tag": "placements" }
+        ]
+    },
+
+    {
+        "intent": "admission_enquiry",
+        "related": [
+            { "text": "Apply Now", "tag": "admission_form" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Fee Structure", "tag": "fee" },
+            { "text": "Hostel", "tag": "hostel" },
+            { "text": "Campus Visit", "tag": "campus_visit" }
+        ]
+    },
+
+    {
+        "intent": "fee",
+        "related": [
+            { "text": "Admission", "tag": "admission_enquiry" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Hostel", "tag": "hostel" }
+        ]
+    },
+    {
+        "intent": "hostel",
+        "related": [
+            { "text": "Courses", "tag": "course" },
+            { "text": "Fee Structure", "tag": "fee" },
+            { "text": "Campus Visit", "tag": "campus_visit" }
+        ]
+    },
+    {
+        "intent": "placements",
+        "related": [
+            { "text": "Placement Training", "tag": "placement_training" },
+            { "text": "Career Options", "tag": "career" },
+            { "text": "Courses", "tag": "course" }
+        ]
+    },
+    {
+        "intent": "placement_training",
+        "related": [
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Career Options", "tag": "career" }
+        ]
+    },
+    {
+        "intent": "career",
+        "related": [
+            { "text": "Placements", "tag": "placements" },
+            { "text": "Courses", "tag": "course" }
+        ]
+    },
+    {
+        "intent": "library",
+        "related": [
+            { "text": "Campus Facilities", "tag": "about_college" },
+            { "text": "Departments", "tag": "departments_list" }
+        ]
+    },
+    {
+        "intent": "canteen",
+        "related": [
+            { "text": "Campus Life", "tag": "campus_life" },
+            { "text": "Hostel", "tag": "hostel" }
+        ]
+    },
+    {
+        "intent": "bus",
+        "related": [
+            { "text": "Address", "tag": "address" },
+            { "text": "Campus Visit", "tag": "campus_visit" }
+        ]
+    },
+    {
+        "intent": "rules",
+        "related": [
+            { "text": "Campus Life", "tag": "campus_life" },
+            { "text": "Student Strength", "tag": "student_strength" }
+        ]
+    },
+    {
+        "intent": "campus_visit",
+        "related": [
+            { "text": "Address", "tag": "address" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Admission", "tag": "admission_enquiry" }
+        ]
+    },
+    {
+        "intent": "techfest",
+        "related": [
+            { "text": "Campus Life", "tag": "campus_life" },
+            { "text": "Departments", "tag": "departments_list" },
+            { "text": "Sports", "tag": "sports" }
+        ]
+    },
+    {
+        "intent": "teacher",
+        "related": [
+            { "text": "Departments", "tag": "departments_list" },
+            { "text": "Courses", "tag": "course" },
+            { "text": "Placements", "tag": "placements" }
+        ]
+    }
+]

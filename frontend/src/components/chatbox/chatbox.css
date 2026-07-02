@@ -1,0 +1,111 @@
+.chat-box-container {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    height: 690px;
+    width: 400px;
+
+    background: linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+    border-radius: 18px;
+
+    box-shadow:
+        0 10px 40px rgba(0,0,0,0.15),
+        0 0 0 1px rgba(255,255,255,0.4) inset;
+
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* HEADER BLUE */
+.chat-box-header {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+}
+
+
+/* CHAT AREA */
+.chat-box-middle {
+    position: relative;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+
+
+/* CENTER WATERMARK LOGO */
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+}
+
+
+/* KEEP TEXT ABOVE LOGO */
+.chat-message-client,
+.chat-message-server {
+    position: relative;
+    z-index: 2;
+    border-radius: 18px;
+}
+
+
+/* USER MESSAGE */
+.chat-message-client {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+}
+
+
+/* BOT MESSAGE */
+.chat-message-server {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+/* INPUT AREA */
+.chat-box-bottom input {
+    border-radius: 12px;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+    border: 1px solid #dbeafe;
+}
+
+
+/* BUTTONS */
+.chat-box-bottom button {
+    margin: 5px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    height: 45px;
+    width: 45px;
+}
+
+.chat-box-bottom button:hover {
+    transform: scale(1.05);
+}
+
+
+/* QUICK OPTIONS */
+.direct-btn {
+    background: #e0ecff;
+    color: #1e3a8a;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.direct-btn:hover {
+    background: #c7dbff;
+}

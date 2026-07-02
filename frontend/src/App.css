@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background */
+.bg-custom-image {
+  @apply relative flex flex-col items-center justify-center h-screen;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Dark premium overlay */
+.bg-custom-image::before {
+  content: "";
+  @apply absolute inset-0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+}
+
+/* Main college title */
+.main-title {
+  font-size: 7rem;
+  font-weight: 900;
+  letter-spacing: 6px;
+  background: linear-gradient(to bottom, #e2e8f0, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  z-index: 2;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #e2e8f0;
+  font-size: 1.6rem;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+/* Floating chat button */
+.control-button {
+  @apply absolute bottom-[8%] right-[8%] text-black text-xl rounded-full h-14 w-14 bg-white cursor-pointer;
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.6);
+  transition: 0.2s ease;
+}
+
+.control-button:hover {
+  transform: scale(1.15);
+}
+
+.control-button:active {
+  transform: scale(0.95);
+}

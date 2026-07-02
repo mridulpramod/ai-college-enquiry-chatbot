@@ -1,0 +1,228 @@
+[
+{
+"tag":"welcomegreeting",
+"questions":[
+"hi","hello","hey","hii","good morning","good evening","good afternoon",
+"hello there","hi chatbot","hello assistant","start","help","guide me",
+"who are you","what can you do","are you a bot","college enquiry",
+"can you help me","hi there","hey assistant"
+],
+"response":[
+"Hello 👋 Welcome to College of Engineering Thalassery (COET)! How can I assist you today?",
+"Hi there! I can help you with courses, admission, placements and campus facilities.",
+"Welcome to COET chatbot 😊 Ask me anything about the college."
+],
+"related":[
+{"text":"About College","tag":"about_college"},
+{"text":"Courses","tag":"course"},
+{"text":"Admission","tag":"admission_enquiry"},
+{"text":"Placements","tag":"placements"},
+{"text":"Hostel","tag":"hostel"}
+]
+},
+
+{
+"tag":"about_college",
+"questions":[
+"about college","tell me about coet","college information","coet details",
+"introduction of college","history of coet","when established",
+"college overview","profile of coet","about engineering college thalassery",
+"information about coet","college background","college history",
+"about this institution","college details"
+],
+"response":[
+"College of Engineering Thalassery (COET) was established in 2000 and is located at Kundoormala near Thalassery.",
+"COET is affiliated to APJ Abdul Kalam Technological University (KTU) for B.Tech and CUSAT for PG programs.",
+"The campus is situated on a hilltop with scenic surroundings and hosts around 2500 students."
+],
+"related":[
+{"text":"Principal","tag":"principal"},
+{"text":"Location","tag":"address"},
+{"text":"Courses","tag":"course"}
+]
+},
+
+{
+"tag":"principal",
+"questions":[
+"principal name","who is principal","principal details",
+"head of college","college principal","principal information",
+"name of principal","who leads the college","principal profile"
+],
+"response":[
+"The Principal of COET is Dr. Eby David.",
+"You can learn more about the principal here: https://www.cethalassery.ac.in/principal.php"
+],
+"related":[
+{"text":"About College","tag":"about_college"},
+{"text":"Contact Office","tag":"contact_office"}
+]
+},
+
+{
+"tag":"student_strength",
+"questions":[
+"how many students","student strength","total students",
+"college strength","number of students","how many students study here",
+"student population","college student count"
+],
+"response":[
+"COET has approximately 2500 students across various engineering departments.",
+"The college hosts thousands of students pursuing different programs."
+],
+"related":[
+{"text":"Departments","tag":"departments_list"},
+{"text":"Campus Life","tag":"campus_life"}
+]
+},
+
+{
+"tag":"course",
+"questions":[
+"courses","branches","departments","what courses available",
+"engineering branches","what can i study","programs offered",
+"degrees available","btech courses","course options",
+"engineering courses","available programs","college courses"
+],
+"response":[
+"COET offers B.Tech programs in Civil, Mechanical, CSE, ECE, EEE and IT.",
+"The college also provides MBA and MCA postgraduate programs."
+],
+"related":[
+{"text":"Civil","tag":"civil"},
+{"text":"CSE","tag":"cse"},
+{"text":"ECE","tag":"ece"},
+{"text":"EEE","tag":"eee"},
+{"text":"Mechanical","tag":"mech"},
+{"text":"IT","tag":"it"}
+]
+},
+
+{
+"tag":"hostel",
+"questions":[
+"hostel","hostel facility","is hostel available","boys hostel",
+"girls hostel","stay facility","hostel rooms","hostel details",
+"student hostel","college accommodation","campus hostel",
+"hostel admission","accommodation for students"
+],
+"response":[
+"Hostel facilities are available for both boys and girls near the campus.",
+"Students can stay in comfortable hostel accommodations with basic facilities."
+],
+"related":[
+{"text":"Fee Structure","tag":"fee"},
+{"text":"Campus Visit","tag":"campus_visit"}
+]
+},
+
+{
+"tag":"placements",
+"questions":[
+"placements","placement details","placement support","job opportunities",
+"placement cell","companies visiting","placement record","career support",
+"highest package","average salary","campus placements","recruitment companies"
+],
+"response":[
+"COET provides placement support including training programs, aptitude sessions and recruitment drives.",
+"You can learn more about placements here: http://placement.cethalassery.ac.in/"
+],
+"related":[
+{"text":"Placement Training","tag":"placement_training"},
+{"text":"Career","tag":"career"}
+]
+},
+
+{
+"tag":"library",
+"questions":[
+"library","library facility","books availability",
+"study space","reading hall","digital library",
+"college library","library books","study room"
+],
+"response":[
+"COET has a well-equipped central library with books, journals and digital resources.",
+"The library provides study spaces and academic materials for students."
+],
+"related":[
+{"text":"Departments","tag":"departments_list"}
+]
+},
+
+{
+"tag":"canteen",
+"questions":[
+"canteen","food facility","mess facility","food available",
+"snacks shop","college food court","campus food","cafeteria"
+],
+"response":[
+"A college canteen is available on campus providing meals and snacks for students.",
+"The canteen offers affordable food options for students."
+],
+"related":[
+{"text":"Campus Life","tag":"campus_life"}
+]
+},
+
+{
+"tag":"techfest",
+"questions":[
+"is college have techfest","technical fest","college techfest",
+"engineering fest","annual tech festival","coding competition",
+"technical events","student tech event","innovation festival"
+],
+"response":[
+"COET organizes a technical festival called AGNITUS with various technical competitions and events."
+],
+"related":[
+{"text":"Campus Life","tag":"campus_life"},
+{"text":"Departments","tag":"departments_list"}
+]
+},
+
+{
+"tag":"campus_life",
+"questions":[
+"campus life","student life","college life",
+"how is campus life","college atmosphere",
+"student activities","college vibe","campus environment"
+],
+"response":[
+"Campus life at COET is active and engaging with technical events, arts programs, sports and clubs."
+],
+"related":[
+{"text":"Sports","tag":"sports"},
+{"text":"College Fest","tag":"college_fest"}
+]
+},
+
+{
+"tag":"sports",
+"questions":[
+"sports","sports facilities","football ground","cricket ground",
+"sports ground","sports competitions","sports events","gym facility"
+],
+"response":[
+"COET provides sports facilities including football, cricket and indoor games."
+],
+"related":[
+{"text":"Campus Life","tag":"campus_life"}
+]
+},
+
+{
+"tag":"unknown",
+"questions":[
+"random question","tell me a joke","play music",
+"what is the weather","something else",
+"i want pizza","random text"
+],
+"response":[
+"Sorry, I didn't understand that. I can help with admissions, courses, placements and campus facilities."
+],
+"related":[
+{"text":"Courses","tag":"course"},
+{"text":"Admission","tag":"admission_enquiry"}
+]
+}
+]

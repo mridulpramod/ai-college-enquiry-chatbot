@@ -1,0 +1,109 @@
+/* ===================================== */
+/* TRAINING BOX */
+/* ===================================== */
+
+.training-box {
+  margin-top: 15px;
+  padding: 15px;
+  background: #2d2d44;
+  border-radius: 10px;
+  animation: fadeUp 0.3s ease;
+}
+
+.training-box p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* ===================================== */
+/* MODERN PROGRESS BAR */
+/* ===================================== */
+
+.progress-bar {
+  height: 10px;
+  background: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4caf50, #22c55e);
+  transition: width 0.4s ease;
+  border-radius: 10px;
+}
+
+/* ===================================== */
+/* SECONDARY BUTTON */
+/* ===================================== */
+
+.btn-secondary {
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background: #1e40af;
+}
+
+/* ===================================== */
+/* INTENT CARD BUTTONS */
+/* ===================================== */
+
+.intent-card button {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 6px 10px;
+}
+
+/* ===================================== */
+/* ADMISSION LEADS TABLE */
+/* ===================================== */
+
+.leads-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.leads-table th,
+.leads-table td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  text-align: left;
+}
+
+.leads-table th {
+  background: #2d2d44;
+  font-weight: bold;
+}
+
+.leads-table tr:hover {
+  background: #343456;
+}
+
+/* ===================================== */
+/* SMALL BADGE */
+/* ===================================== */
+
+.badge {
+  background: #22c55e;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* ===================================== */
+/* EMPTY STATE */
+/* ===================================== */
+
+.empty-state {
+  text-align: center;
+  margin-top: 30px;
+  color: #aaa;
+  font-size: 14px;
+}

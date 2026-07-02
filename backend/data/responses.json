@@ -1,0 +1,228 @@
+[
+    {
+        "intent": "welcomegreeting",
+        "responses": [
+            "Hello 👋 Welcome to the College of Engineering Thalassery (COET) virtual assistant.\n\nI can help you with information about:\n• Courses and Departments\n• Admission Procedures\n• Placements\n• Hostel and Facilities\n• Fees and Regulations\n\nHow may I assist you today?"
+        ]
+    },
+    {
+        "intent": "about_college",
+        "responses": [
+            "College of Engineering Thalassery (COET) was established in the year 2000 and is located at Kundoormala near Thalassery in Kannur district, Kerala. The college is affiliated with APJ Abdul Kalam Technological University (KTU) for B.Tech programs and Cochin University of Science and Technology (CUSAT) for postgraduate programs. The campus is situated on a scenic hilltop and currently has around 2500 students."
+        ]
+    },
+    {
+        "intent": "principal",
+        "responses": [
+            "The Principal of the College of Engineering Thalassery is Dr. Eby David.\nFor more details please visit:\nhttps://www.cethalassery.ac.in/principal.php"
+        ]
+    },
+    {
+        "intent": "student_strength",
+        "responses": [
+            "The College of Engineering Thalassery has approximately 2500 students studying across various engineering and postgraduate programs."
+        ]
+    },
+    {
+        "intent": "address",
+        "responses": [
+            "The College of Engineering Thalassery is located at Eranholi PO, Kundoormala, Thalassery, Kannur District, Kerala – 670107. The campus is about 6.5 kilometers from Thalassery town."
+        ]
+    },
+    {
+        "intent": "contact",
+        "responses": [
+            "You can find official contact information including phone numbers and email addresses on the COET website:\nhttps://www.cethalassery.ac.in/"
+        ]
+    },
+    {
+        "intent": "timing",
+        "responses": [
+            "The regular working hours of the college are from 9:00 AM to 4:00 PM, Monday to Friday."
+        ]
+    },
+    {
+        "intent": "emotion",
+        "responses": [
+            "No problem 😊 I am here to help you. Tell me your interests—whether it is programming, electronics, machines, or construction—and I can guide you toward the most suitable engineering branch."
+        ]
+    },
+    {
+        "intent": "unknown",
+        "responses": [
+            "I'm sorry, I couldn't understand your query. However, I can assist you with information related to admissions, courses, hostel facilities, placements, and other college services."
+        ]
+    },
+    {
+        "intent": "course",
+        "responses": [
+            "COET offers several B.Tech programs including Civil Engineering, Mechanical Engineering, Computer Science and Engineering (CSE), Electronics and Communication Engineering (ECE), Electrical and Electronics Engineering (EEE), and Information Technology (IT). The college also offers postgraduate programs such as MBA and MCA under CUSAT."
+        ]
+    },
+    {
+        "intent": "civil",
+        "responses": [
+            "The Civil Engineering Department offers a Bachelor of Technology (B.Tech) program in Civil Engineering.\nMore information is available here:\nhttps://www.cethalassery.ac.in/civil.php"
+        ]
+    },
+    {
+        "intent": "cse",
+        "responses": [
+            "The Computer Science and Engineering (CSE) Department offers a B.Tech program focused on programming, artificial intelligence, software development, and computing technologies.\nMore details:\nhttps://www.cethalassery.ac.in/cse.php"
+        ]
+    },
+    {
+        "intent": "ece",
+        "responses": [
+            "The Electronics and Communication Engineering (ECE) Department offers a B.Tech program focusing on communication systems, electronics, and embedded technologies.\nMore details:\nhttps://www.cethalassery.ac.in/ece.php"
+        ]
+    },
+    {
+        "intent": "eee",
+        "responses": [
+            "The Electrical and Electronics Engineering (EEE) Department offers a B.Tech program specializing in electrical systems, power engineering, and electronics.\nMore details:\nhttps://www.cethalassery.ac.in/eee.php"
+        ]
+    },
+    {
+        "intent": "mech",
+        "responses": [
+            "The Mechanical Engineering Department offers a B.Tech program focusing on machines, manufacturing technologies, and mechanical systems.\nMore details:\nhttps://www.cethalassery.ac.in/mech.php"
+        ]
+    },
+    {
+        "intent": "it",
+        "responses": [
+            "The Information Technology (IT) Department offers a B.Tech program covering software systems, networking technologies, and IT solutions.\nMore details:\nhttps://www.cethalassery.ac.in/it.php"
+        ]
+    },
+    {
+        "intent": "mba",
+        "responses": [
+            "The college offers a Master of Business Administration (MBA) program under CUSAT.\nMore details are available here:\nhttps://sites.google.com/cethalassery.ac.in/mba-tly/home"
+        ]
+    },
+    {
+        "intent": "mca",
+        "responses": [
+            "The college offers a Master of Computer Applications (MCA) program under CUSAT.\nMore details:\nhttps://www.cethalassery.ac.in/mca.php"
+        ]
+    },
+    {
+        "intent": "best_course",
+        "responses": [
+            "The best course depends on your personal interests and career goals.\n\n• Interested in coding → CSE or IT\n• Interested in electronics → ECE or EEE\n• Interested in machines → Mechanical Engineering\n• Interested in infrastructure → Civil Engineering\n\nTell me your interests and I will guide you further."
+        ]
+    },
+    {
+        "intent": "admission_enquiry",
+        "responses": [
+            "Admission to B.Tech programs at COET is based on the KEAM entrance examination and allotment conducted under APJ Abdul Kalam Technological University (KTU).\nMore details:\nhttps://www.cethalassery.ac.in/admission-requirements.php"
+        ]
+    },
+    {
+        "intent": "fee",
+        "responses": [
+            "You can find the complete fee structure for all courses on the official COET website:\nhttps://www.cethalassery.ac.in/fee-structure.php"
+        ]
+    },
+    {
+        "intent": "hostel",
+        "responses": [
+            "Yes, hostel facilities are available for both male and female students near the college campus.\nMore information:\nhttps://www.cethalassery.ac.in/hostel.php"
+        ]
+    },
+    {
+        "intent": "placements",
+        "responses": [
+            "COET has an active placement cell that supports students through training programs, aptitude sessions, mock interviews, and recruitment drives.\nMore details:\nhttp://placement.cethalassery.ac.in/"
+        ]
+    },
+    {
+        "intent": "thanks",
+        "responses": [
+            "You're welcome 😊 I'm happy to assist you. If you have any more questions, feel free to ask."
+        ]
+    },
+    {
+        "intent": "endgreeting",
+        "responses": [
+            "Goodbye 👋 Thank you for visiting the COET assistant. Feel free to return if you need more information."
+        ]
+    },
+    {
+        "intent": "campus_life",
+        "responses": [
+            "Campus life at COET is vibrant and engaging. Students participate in technical events, cultural programs, sports activities, and student clubs throughout the year."
+        ]
+    },
+    {
+        "intent": "sports",
+        "responses": [
+            "COET provides sports facilities including football grounds, cricket grounds, and indoor sports facilities. Students regularly participate in inter-college sports competitions."
+        ]
+    },
+    {
+        "intent": "faculty",
+        "responses": [
+            "The college has highly qualified and experienced faculty members who provide academic guidance and mentorship to students."
+        ]
+    },
+    {
+        "intent": "labs",
+        "responses": [
+            "The college has well-equipped laboratories in all departments to support practical learning and research activities."
+        ]
+    },
+    {
+        "intent": "wifi",
+        "responses": [
+            "Yes, Wi-Fi and internet facilities are available across the campus to support academic activities."
+        ]
+    },
+    {
+        "intent": "ragging",
+        "responses": [
+            "COET strictly follows anti-ragging regulations to ensure a safe and friendly environment for all students."
+        ]
+    },
+    {
+        "intent": "internship",
+        "responses": [
+            "Students are encouraged to participate in internships and industrial training programs to gain real-world industry experience."
+        ]
+    },
+    {
+        "intent": "higher_studies",
+        "responses": [
+            "After completing B.Tech, students can pursue higher studies such as M.Tech, MBA, MS abroad, or prepare for competitive examinations."
+        ]
+    },
+    {
+        "intent": "attendance",
+        "responses": [
+            "Students are generally required to maintain a minimum attendance of 75% as per university regulations."
+        ]
+    },
+    {
+        "intent": "college_fest",
+        "responses": [
+            "COET organizes various technical festivals, cultural programs, and student events throughout the academic year."
+        ]
+    },
+    {
+        "intent": "department",
+        "responses": []
+    },
+    {
+        "intent": "techfest",
+        "responses": [
+            "Yes, COET conducts a technical festival called AGNITUS, which features technical competitions, workshops, and innovation events."
+        ]
+    },
+    {
+        "intent": "teacher",
+        "responses": [
+            "The college has qualified and experienced teachers across all departments who support students academically."
+        ]
+    }
+]
