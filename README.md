@@ -10,7 +10,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-ML-orange?style=for-the-badge&logo=tensorflow)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-[**Live Demo**](#) · [**Report Bug**](https://github.com/mridulpramod/AI-College-Enquiry-Chatbot/issues) · [**Request Feature**](https://github.com/mridulpramod/AI-College-Enquiry-Chatbot/issues)
+[**Report Bug**](https://github.com/mridulpramod/AI-College-Enquiry-Chatbot/issues) · [**Request Feature**](https://github.com/mridulpramod/AI-College-Enquiry-Chatbot/issues)
 
 </div>
 
@@ -161,7 +161,7 @@ Frontend runs at `http://localhost:3000`
 | Backend (FastAPI) | [Render](https://render.com) | Free web service; spins down after inactivity, wakes on request |
 | Full-stack (alt.) | [Hugging Face Spaces](https://huggingface.co/spaces) | Good option if you want frontend + ML inference on one free host |
 
-**Live demo:** _add your deployed link here once hosted_
+Not currently deployed — run locally using the steps above.
 
 ## 🔮 Roadmap
 
